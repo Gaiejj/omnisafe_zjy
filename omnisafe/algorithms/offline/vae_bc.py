@@ -21,8 +21,8 @@ from torch import optim
 
 from omnisafe.algorithms import registry
 from omnisafe.algorithms.offline.base import BaseOffline
+from omnisafe.models.actor import VAE
 from omnisafe.models.actor.actor_builder import ActorBuilder
-from omnisafe.models.actor.vae_actor import VAE
 
 
 @registry.register
